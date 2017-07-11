@@ -36,6 +36,7 @@ Partial Class Form1
         Me.DateTimePicker1.CustomFormat = "yyyy/MM/dd HH:mm:ss"
         Me.DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom
         Me.DateTimePicker1.Location = New System.Drawing.Point(99, 64)
+        Me.DateTimePicker1.MinDate = New Date(1970, 1, 1, 0, 0, 0, 0)
         Me.DateTimePicker1.Name = "DateTimePicker1"
         Me.DateTimePicker1.Size = New System.Drawing.Size(272, 26)
         Me.DateTimePicker1.TabIndex = 0
@@ -99,7 +100,7 @@ Partial Class Form1
         Me.Controls.Add(Me.lblResult)
         Me.Controls.Add(Me.DateTimePicker1)
         Me.Font = New System.Drawing.Font("Arial", 12.0!)
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "Form1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Calculator"
